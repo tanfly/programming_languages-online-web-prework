@@ -37,7 +37,7 @@ languages.each do |style, info|
         if new_hash[language]
             new_hash[language][:style] << style
         else
-            new_hash[language] = {type: lang_attributes[:type], :style [style]}
+            new_hash[language] = {type: lang_attributes[:type], style: [style]}
         end
     end
     new_hash
